@@ -9,6 +9,7 @@ backup_and_replace() {
 
   # Replace the string in the file
   sed -i "s/MIRRORING_PACKAGE_DOWNLOAD_TIMEOUT = '300'/MIRRORING_PACKAGE_DOWNLOAD_TIMEOUT = '3600'/" "$file"
+  sed -i "s/'MIRRORING_PACKAGE_DOWNLOAD_TIMEOUT', '300'/'MIRRORING_PACKAGE_DOWNLOAD_TIMEOUT', '3600'/" "$file"
 }
 
 # List of files to process
