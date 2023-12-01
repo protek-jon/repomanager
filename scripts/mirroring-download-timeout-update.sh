@@ -1,3 +1,8 @@
+#####################################################################################
+## UPDATE: See "MIRRORING SETTINGS" in general settings. This was added recently!
+## There's no need to change this in the docker container files anymore.
+#####################################################################################
+
 #!/bin/bash
 
 backup_and_replace() {
